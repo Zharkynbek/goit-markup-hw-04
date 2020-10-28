@@ -154,7 +154,15 @@ a {
 }
 
 .primery-section {
-  background-color: #2f303a;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../images/overlay.jpg");
+  background-color: rgba(47, 48, 58, 0.4);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .primery-section .order {
   color: #fff;
@@ -165,7 +173,7 @@ a {
   padding: 10px 32px;
   border-radius: 5px;
   border: transparent;
-  margin-bottom: 210px;
+  margin-bottom: 214px;
 }
 
 .order-type {
