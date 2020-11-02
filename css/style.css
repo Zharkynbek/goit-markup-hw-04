@@ -54,6 +54,11 @@ a {
   font-family: Roboto;
   text-decoration: none;
 }
+
+.portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
 .header {
   background-color: #fff;
 }
@@ -475,10 +480,6 @@ a {
   padding-bottom: 94px;
 }
 
-.portfolio {
-  border: 1px solid #ececec;
-}
-
 .primery-div {
   width: 1230px;
   padding-left: 15px;
@@ -661,13 +662,19 @@ a {
 }
 
 .main-foto {
-  display: flex;
+  height: auto;
+  display: inline-flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 50;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .main-foto li {
